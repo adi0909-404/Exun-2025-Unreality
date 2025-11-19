@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class TitleScreen : MonoBehaviour
 {
-    public string firstScene = "Level1"; // must match scene name exactly
+    public string firstScene = "Game"; 
 
     public void Play()
     {
