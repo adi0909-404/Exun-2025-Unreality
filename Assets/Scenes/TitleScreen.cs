@@ -3,14 +3,14 @@ using UnityEngine.SceneManagement;
 
 public class TitleScreen : MonoBehaviour
 {
-    public string gameSceneName = "Game"; 
+    public string firstScene = "Level1"; // must match scene name exactly
 
-    public void PlayGame()
+    public void Play()
     {
-        SceneManager.LoadScene(gameSceneName);
+        SceneManager.LoadScene(firstScene);
     }
 
-    public void QuitGame()
+    public void Quit()
     {
         Application.Quit();
     }
