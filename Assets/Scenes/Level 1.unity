@@ -6841,6 +6841,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 92f8aefe0c3ad4fb4b592fbae20ca67e, type: 3}
       insertIndex: -1
       addedObject: {fileID: 595659479}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 92f8aefe0c3ad4fb4b592fbae20ca67e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 595659483}
   m_SourcePrefab: {fileID: 100100000, guid: 92f8aefe0c3ad4fb4b592fbae20ca67e, type: 3}
 --- !u!1 &595659478 stripped
 GameObject:
@@ -6861,6 +6864,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
   speed: 3
   damage: 10
+--- !u!54 &595659483
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 595659478}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &600772750
 GameObject:
   m_ObjectHideFlags: 0
@@ -12140,6 +12170,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 92f8aefe0c3ad4fb4b592fbae20ca67e, type: 3}
       insertIndex: -1
       addedObject: {fileID: 909390097}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 92f8aefe0c3ad4fb4b592fbae20ca67e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 909390101}
   m_SourcePrefab: {fileID: 100100000, guid: 92f8aefe0c3ad4fb4b592fbae20ca67e, type: 3}
 --- !u!1 &909390096 stripped
 GameObject:
@@ -12160,6 +12193,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
   speed: 3
   damage: 10
+--- !u!54 &909390101
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 909390096}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &912371418
 GameObject:
   m_ObjectHideFlags: 0
@@ -23395,6 +23455,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 92f8aefe0c3ad4fb4b592fbae20ca67e, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1061870953}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 92f8aefe0c3ad4fb4b592fbae20ca67e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1061870957}
   m_SourcePrefab: {fileID: 100100000, guid: 92f8aefe0c3ad4fb4b592fbae20ca67e, type: 3}
 --- !u!1 &1061870952 stripped
 GameObject:
@@ -23423,6 +23486,33 @@ MonoBehaviour:
   rainCount: 10
   rainRadius: 5
   rainHeight: 10
+--- !u!54 &1061870957
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1061870952}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!43 &1113674906
 Mesh:
   m_ObjectHideFlags: 0
@@ -40025,6 +40115,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 92f8aefe0c3ad4fb4b592fbae20ca67e, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1955258361}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 92f8aefe0c3ad4fb4b592fbae20ca67e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1955258365}
   m_SourcePrefab: {fileID: 100100000, guid: 92f8aefe0c3ad4fb4b592fbae20ca67e, type: 3}
 --- !u!1 &1955258360 stripped
 GameObject:
@@ -40045,6 +40138,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
   speed: 3
   damage: 10
+--- !u!54 &1955258365
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1955258360}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &2111739171
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40116,6 +40236,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 92f8aefe0c3ad4fb4b592fbae20ca67e, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2111739173}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 92f8aefe0c3ad4fb4b592fbae20ca67e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2111739177}
   m_SourcePrefab: {fileID: 100100000, guid: 92f8aefe0c3ad4fb4b592fbae20ca67e, type: 3}
 --- !u!1 &2111739172 stripped
 GameObject:
@@ -40136,6 +40259,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
   speed: 3
   damage: 10
+--- !u!54 &2111739177
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2111739172}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
